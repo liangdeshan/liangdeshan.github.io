@@ -6,7 +6,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
-  <meta name="author" content="梁德山">
+  <meta name="author" content="梁德山 (One Limit)">
   <meta name="description" content="Matlab——不重复随机整数的应用例子20110719回答小木虫一提问 CODE1: function ff=lds(xx,m,a,b,k) %xx里面存n个数 %随机选m个数令其值为a,(n&gt;=m) %其余n-m个值为b %执行k次 for j=1:k %选择k次 n=size(xx,2); %检查有多少个数，即得到n z=randperm(n); zz=z(1:m); %得到四个从1到n的不重复的随机整数 xx(1:n)=b; %首先令所有数为b xx(1,zz)=a; %再令选中的四个为a，也就实现了——选择4个令其值为a，其余n-4个数的值为b ff=xx; %把得到的数据返回 end 调用方式； CODE2: x=rand(1,996) f=lds(x,4,2,0,1000) 任意的行向">
   
   <meta property="og:title" content="Matlab——不重复随机整数的应用例子" />
@@ -93,7 +93,7 @@
           
         <img class="avatar" src="https://liangdeshan.github.io/img/liang.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
         
-        <strong> 梁德山</strong>
+        <strong> 梁德山 (One Limit)</strong>
       </a>
 
       

@@ -6,7 +6,7 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
-  <meta name="author" content="梁德山">
+  <meta name="author" content="梁德山 (One Limit)">
   <meta name="description" content="clear clc srcDir=uigetdir(&#39;F:\Data\preshear and relaxation\2013-11-26-SSBR80-60oC- 1 s-1 preshear and hold.&#39;,&#39;请选择读取目录&#39;); %获得选择的文件夹 cd(srcDir); allnames=struct2cell(dir(&#39;*.tif&#39;)); %只处理8位的bmp文件 [k,len]=size(allnames); %获得bmp文件的个数 saveDir=uigetdir(&#39;F:\Data\preshear and relaxation\2013-11-26-SSBR80-60oC- 1 s-1 preshear and hold.&#39;,&#39;请选择保存目录&#39;); for ii=1:len %逐次取出文件 name=allnames{1,ii}; I=imread(name); %读取文件 fftI=fft2(I); sfftI=fftshift(fftI); RR=real(sfftI); II=imag(sfftI); A=sqrt(RR.^2&#43;II.^2); A=(A-min(min(A)))/(max(max(A))-min(min(A)))*225; h=figure; imshow(A); %% %by lds colorbar colormap(&#39;jet&#39;) [~,lname]=size(name); namefig=name(1:lname-3);saveas(gcf,[saveDir &#39;\&#39; namefig &#39;fig&#39;]) %保存fig的图像 print(1,&#39;-dpng&#39;,[saveDir &#39;\&#39; namefig &#39;png&#39;]); %保存png的图像 close(h) end">
   
   <meta property="og:title" content="帮高中同学LXG修改过的代码" />
@@ -93,7 +93,7 @@
           
         <img class="avatar" src="https://liangdeshan.github.io/img/liang.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
         
-        <strong> 梁德山</strong>
+        <strong> 梁德山 (One Limit)</strong>
       </a>
 
       
