@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>杂物 on 梁德山博客</title>
+    <link>https://wwww.liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9/</link>
+    <description>Recent content in 杂物 on 梁德山博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 10 Dec 2013 15:49:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://wwww.liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>帮高中同学LXG修改过的代码</title>
+      <link>https://wwww.liangdeshan.github.io/blog/2013-12/%E5%B8%AE%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%A6lxg%E4%BF%AE%E6%94%B9%E8%BF%87%E7%9A%84%E4%BB%A3%E7%A0%81/</link>
+      <pubDate>Tue, 10 Dec 2013 15:49:22 +0800</pubDate>
+      
+      <guid>https://wwww.liangdeshan.github.io/blog/2013-12/%E5%B8%AE%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%A6lxg%E4%BF%AE%E6%94%B9%E8%BF%87%E7%9A%84%E4%BB%A3%E7%A0%81/</guid>
+      <description>clear clc srcDir=uigetdir(&#39;F:\Data\preshear and relaxation\2013-11-26-SSBR80-60oC- 1 s-1 preshear and hold.&#39;,&#39;请选择读取目录&#39;); %获得选择的文件夹 cd(srcDir); allnames=struct2cell(dir(&#39;*.tif&#39;)); %只处理8位的bmp文件 [k,len]=size(allnames); %获得bmp文件的个数 saveDir=uigetdir(&#39;F:\Data\preshear and relaxation\2013-11-26-SSBR80-60oC- 1 s-1 preshear and hold.&#39;,&#39;请选择保存目录&#39;); for ii=1:len %逐次取出文件 name=allnames{1,ii}; I=imread(name); %读取文件 fftI=fft2(I); sfftI=fftshift(fftI); RR=real(sfftI); II=imag(sfftI); A=sqrt(RR.^2+II.^2); A=(A-min(min(A)))/(max(max(A))-min(min(A)))*225; h=figure; imshow(A); %% %by lds colorbar colormap(&#39;jet&#39;) [~,lname]=size(name); namefig=name(1:lname-3);saveas(gcf,[saveDir &#39;\&#39; namefig &#39;fig&#39;]) %保存fig的图像 print(1,&#39;-dpng&#39;,[saveDir &#39;\&#39; namefig &#39;png&#39;]); %保存png的图像 close(h) end</description>
+    </item>
+    
+    <item>
+      <title>理工宅男看世界之——规则决定的中庸</title>
+      <link>https://wwww.liangdeshan.github.io/blog/2013-05/%E7%90%86%E5%B7%A5%E5%AE%85%E7%94%B7%E7%9C%8B%E4%B8%96%E7%95%8C%E4%B9%8B%E8%A7%84%E5%88%99%E5%86%B3%E5%AE%9A%E7%9A%84%E4%B8%AD%E5%BA%B8/</link>
+      <pubDate>Sun, 05 May 2013 10:17:35 +0800</pubDate>
+      
+      <guid>https://wwww.liangdeshan.github.io/blog/2013-05/%E7%90%86%E5%B7%A5%E5%AE%85%E7%94%B7%E7%9C%8B%E4%B8%96%E7%95%8C%E4%B9%8B%E8%A7%84%E5%88%99%E5%86%B3%E5%AE%9A%E7%9A%84%E4%B8%AD%E5%BA%B8/</guid>
+      <description>写于高三 中庸英文Moderate，如果用理工宅男的眼光看那就是50%，不上不下，不左不右。所以本理工宅男对中庸无褒贬态度。只是分析一个简单的数学小模型。 理工宅男小人物一个，也管不了国家级别的大规则，所以我们不分析国家级别的大规则，只用小学数学分析一下一个小小的规则。本宅男在学校呆了好多年，没错就是“呆”了好多年。所以还是来分析一下熟悉的选举制度吧。选举制度话题好像有些大，莫慌宅男只分析自己熟悉的小</description>
+    </item>
+    
+    <item>
+      <title>Moment Test</title>
+      <link>https://wwww.liangdeshan.github.io/moment/test/</link>
+      <pubDate>Thu, 19 Aug 2010 20:29:37 -0700</pubDate>
+      
+      <guid>https://wwww.liangdeshan.github.io/moment/test/</guid>
+      <description>test Movie test test</description>
+    </item>
+    
+  </channel>
+</rss>

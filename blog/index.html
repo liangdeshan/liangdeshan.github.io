@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="zn-Hans">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
+  <meta name="author" content="梁德山">
+  <meta name="description" content="[凝聚态物理,液晶高分子,科学数据可视化,相场方法 Python科学计算,Python可视化 MATLAB,MATLAB科研可视化 PHP,web开发 CentOS,Ubuntu,Linux,MacOS,OSX 维修打印机,维修电脑 专治物理实验室各种疑难杂症,实验室老中医]">
+  
+  <meta property="og:title" content="Blog" />
+<meta property="og:description" content="[凝聚态物理,液晶高分子,科学数据可视化,相场方法 Python科学计算,Python可视化 MATLAB,MATLAB科研可视化 PHP,web开发 CentOS,Ubuntu,Linux,MacOS,OSX 维修打印机,维修电脑 专治物理实验室各种疑难杂症,实验室老中医]" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://wwww.liangdeshan.github.io/blog/" />
+
+<meta property="og:updated_time" content="2018-09-13T22:31:21&#43;08:00"/>
+
+
+  <title>
+  
+       Blog | 梁德山博客 
+  
+  </title>
+
+  <link rel="canonical" href="https://wwww.liangdeshan.github.io/blog/">
+
+  
+  
+
+  
+  <link href="https://wwww.liangdeshan.github.io/css/vendors-extensions/fontawesome/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:300,400,500,600">
+  <link href="https://wwww.liangdeshan.github.io/css/font.css" rel="stylesheet"> 
+    
+  
+  <link href="https://wwww.liangdeshan.github.io/css/vendors/bootstrap4/bootstrap.min.css" rel="stylesheet">
+  <link href="https://wwww.liangdeshan.github.io/css/vendors-extensions/mdb/mdb.min.css" rel="stylesheet"> 
+  <link href="https://wwww.liangdeshan.github.io/css/vendors/mdb/style.min.css" rel="stylesheet"> 
+  <link href="https://wwww.liangdeshan.github.io/css/main.css" rel="stylesheet">
+
+
+  
+  <link rel="shortcut icon"
+  
+      href="https://wwww.liangdeshan.github.io/img/liang.png"
+  
+  >
+
+
+  
+  
+
+  <style type="text/css">
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+
+
+  
+    
+    <link rel="stylesheet" href="https://wwww.liangdeshan.github.io/js/vendors/katex/katex.min.css">
+  
+  
+
+  
+    
+    <link rel="stylesheet" href="https://wwww.liangdeshan.github.io/css/vendors/highlight/github-gist.css">
+  
+
+</head>
+
+  <body class="bg-light" data-spy="scroll" data-target="#page-scrollspy" data-offset="90">
+  
+    
+    
+
+    
+      
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="https://wwww.liangdeshan.github.io">
+          
+        <img class="avatar" src="https://wwww.liangdeshan.github.io/img/liang.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+        
+        <strong> 梁德山</strong>
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        
+        <ul class="navbar-nav mr-auto ">
+          <li class="nav-item ">
+            <a class="nav-link" href="https://wwww.liangdeshan.github.io">Home</a>
+          </li>
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://wwww.liangdeshan.github.io/blog/" >Blog  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://wwww.liangdeshan.github.io/series/" >Series  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://wwww.liangdeshan.github.io/moment/" >Moment  </a>
+            </li>
+          
+             
+            <li class="nav-item ">
+              <a class="nav-link" href="https://wwww.liangdeshan.github.io/about/" >About  </a>
+            </li>
+          
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  
+ 
+      
+ 
+
+
+
+
+
+
+<div id="site-header" class="carousel slide carousel-fade" data-ride="carousel" style="height: 18rem;" >  
+
+  
+  
+  
+
+  
+  <div class="carousel-inner" role="listbox">
+    
+      
+
+        
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('https://wwww.liangdeshan.github.io/img/header-slides/raw_1515691746.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+              
+              
+              
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+      
+
+        
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('https://wwww.liangdeshan.github.io/img/header-slides//raw_1515847341.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            
+
+            </div>
+            
+
+          </div>
+        </div>
+        
+      
+    
+
+  
+  </div>
+  
+
+  
+  <div class="carousel-content text-center white-text wow fadeIn">
+    <div class="row mx-0 headfont mt-3 pt-4">
+      
+      <div class="col-12 col-sm-5 align-middle">
+        <a href="https://wwww.liangdeshan.github.io">
+          
+            <img class="pull-right avatar avatar-md" src="https://wwww.liangdeshan.github.io/img/profile.png" alt="" >
+          
+        </a>
+      </div>
+      
+      <div class="col-12 col-sm-7 text-left pl-2">
+        <a href="https://wwww.liangdeshan.github.io">
+          <h1 class="mb-2 h1" style="font-weight: 300;" >
+            <strong>梁德山博客</strong>
+          </h1>
+        </a>
+        
+
+             
+        <div class="mt-2" style="font-size: 1rem; color: white;">
+            
+              <a href="//github.com/liangdeshan" target="_blank" rel="noopener"><i class="fab fa-github pr-1" aria-hidden="true"></i></a>    
+            
+            
+
+            
+
+            
+
+            
+
+            
+    
+            
+    
+        
+            
+                <a href="mailto:ustb.liangdeshan@gmail.com"><i class="far fa-envelope-open pr-1" aria-hidden="true"></i></a>
+            
+    
+            
+
+            
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  
+  
+
+</div>
+  
+    
+
+    
+  <main class="post-main-wrapper px-5">
+    
+    <div class="row">
+
+      
+      
+        
+        <div class="col-md-3">
+          
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <hr>
+  
+    <div class="post-meta">
+      <div class="mb-2">
+        <a href="https://wwww.liangdeshan.github.io/categories/">
+          <span class="font-weight-bold text-uppercase post-meta">
+            <i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 
+            Categories
+          </span>
+        </a>
+      </div>
+
+      <div class="li-x post-meta" style="margin-left: -8px;">
+        
+          
+          
+            
+            <li class="py-1">
+              <a href="https://wwww.liangdeshan.github.io/categories/matlab">
+                <span>Matlab (7)</span>
+              </a>
+            </li>           
+          
+            
+              <li class="middot"></li>
+            
+            <li class="py-1">
+              <a href="https://wwww.liangdeshan.github.io/categories/%E6%9D%82%E7%89%A9">
+                <span>杂物 (6)</span>
+              </a>
+            </li>           
+          
+        
+      </div>
+    </div>
+
+    
+  
+
+    
+          
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <hr>
+  
+    <div class="post-meta">
+      <div class="mb-2">
+        <a href="https://wwww.liangdeshan.github.io/tags/">
+          <span class="font-weight-bold text-uppercase post-meta">
+            <i class="fas fa-tags pr-1" aria-hidden="true"></i> 
+            Featured Tags
+          </span>
+        </a>
+      </div>
+
+      <div class="li-x post-meta tags-md" style="margin-left: -8px;">
+        
+        
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/matlab" role="button"><span>matlab (9)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9" role="button"><span>杂物 (3)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/test" role="button"><span>test (2)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/%E4%BD%9C%E5%9B%BE" role="button"><span>作图 (2)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/git" role="button"><span>git (1)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/push" role="button"><span>push (1)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/%E6%8F%92%E5%80%BC" role="button"><span>插值 (1)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86" role="button"><span>数据处理 (1)</span></a></li>
+          
+        
+            <li><a href="https://wwww.liangdeshan.github.io/tags/%E6%B5%8B%E8%AF%95" role="button"><span>测试 (1)</span></a></li>
+          
+        
+      </div>
+    </div>
+
+    
+  
+
+          
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+  <hr>
+  
+    <div class="post-meta">
+      <div class="mb-2">
+        <a href="https://wwww.liangdeshan.github.io/series/">
+          <span class="font-weight-bold text-uppercase post-meta">
+            <i class="fas fa-bookmark pr-1" aria-hidden="true"></i> 
+            Recommend Series
+          </span>
+        </a>
+      </div>
+     
+      <div class="post-meta" >
+        
+          
+          
+            <li class="py-1"><a href="https://wwww.liangdeshan.github.io/series/matlab"><span>Matlab (7)</span></a></li>
+          
+            <li class="py-1"><a href="https://wwww.liangdeshan.github.io/series/%E6%9D%82%E7%89%A9"><span>杂物 (4)</span></a></li>
+          
+            <li class="py-1"><a href="https://wwww.liangdeshan.github.io/series/git"><span>Git (1)</span></a></li>
+          
+        
+      </div>
+    
+      
+    </div>
+  
+
+  
+        </div>
+        
+
+        
+        
+        <div class="col-md-9 mt-3">  
+      
+          <ul>
+            <div class="div-x">
+              <div class='post-heading'>
+  
+      Blog
+  
+</div>
+
+              
+              
+                <div class="px-2 middot"></div>
+                <div>
+                  12 posts
+                </div>
+              
+            </div>
+
+            
+              <div class="post-content markdown">
+                <p><code>Blog</code> 记录科研路上的小技巧. 分4类:</p>
+
+<ul>
+<li><p>MATLAB: MATLAB code、加速和一些小技巧.</p></li>
+
+<li><p>Python: Python科研数据可视化、Mayavi包的应用.</p></li>
+
+<li><p>物理:物理知识.</p></li>
+
+<li><p>杂货铺子:生活、旅游、照片、建站、杂物.</p></li>
+</ul>
+
+              </div>
+            
+        </ul>
+        <div>
+          <div class="pagination pagination-outline justify-content-end active-color">
+            
+            
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="https://wwww.liangdeshan.github.io/blog/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item disabled">
+    <a href="" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="https://wwww.liangdeshan.github.io/blog/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="https://wwww.liangdeshan.github.io/blog/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="https://wwww.liangdeshan.github.io/blog/page/3/">3</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="https://wwww.liangdeshan.github.io/blog/page/4/">4</a></li>
+    
+    
+    <li class="page-item">
+    <a href="https://wwww.liangdeshan.github.io/blog/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="https://wwww.liangdeshan.github.io/blog/page/4/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+
+          </div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="https://wwww.liangdeshan.github.io/blog/2019-05/git%E4%B8%89%E8%BF%9E/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">git三连</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>May 8, 2019</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>One minute read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      $ git add . $ git commit -m &#34;修改信息&#34; $ git push origin master......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+        
+          <li><a href="https://wwww.liangdeshan.github.io/categories/%E6%9D%82%E7%89%A9"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 杂物 </a></li>
+        
+      
+      
+        
+          <li><a href="https://wwww.liangdeshan.github.io/series/git"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>git</a></li>
+        
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://wwww.liangdeshan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://wwww.liangdeshan.github.io/tags/git" role="button">git </a></li>
+      
+    
+      <li><a href="https://wwww.liangdeshan.github.io/tags/push" role="button">push </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="https://wwww.liangdeshan.github.io/blog/2014-05/matlab%E8%B0%83%E7%94%A8c/c-%E5%87%BD%E6%95%B0%E7%9A%84%E6%96%B9%E6%B3%95/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">MATLAB调用C/C&#43;&#43;函数的方法</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>May 19, 2014</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>2 minutes read</li>
+        
+      </ul>
+    </div>
+    
+    
+      <div class="view">
+        <img src="https://wwww.liangdeshan.github.io/blog/2018-08/test5.png" />
+      </div>
+    
+
+    
+      通过MATLAB将C/C&#43;&#43;函数编译成MEX函数，在MATLAB中就可以调用了。 1，首先装编译器 Matlab里键入mex -setup，选择你要编译C&#43;&#43;的编译器 2，写C&#43;&#43;函数 函数的形式必须是 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) nlhs：输出参数个数 plhs：输出参数列表 nrhs：输入参数个数 prhs：输入参数列表 ，不过函数名可以随便取的。注意：保存的文件名就是将来在MATLAB中调用的函数名，而不是这里的函数名......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+        
+          <li><a href="https://wwww.liangdeshan.github.io/categories/matlab"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> matlab </a></li>
+        
+      
+      
+        
+          <li><a href="https://wwww.liangdeshan.github.io/series/matlab"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>matlab</a></li>
+        
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://wwww.liangdeshan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://wwww.liangdeshan.github.io/tags/matlab" role="button">matlab </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
+          
+              <div class="post-wrapper white-bg post-card">
+  
+  <a href="https://wwww.liangdeshan.github.io/blog/2013-12/%E5%B8%AE%E9%AB%98%E4%B8%AD%E5%90%8C%E5%AD%A6lxg%E4%BF%AE%E6%94%B9%E8%BF%87%E7%9A%84%E4%BB%A3%E7%A0%81/">
+    <div class="post-header text-center">
+      <div class="px-4 post-heading">帮高中同学LXG修改过的代码</div>
+      <ul class="post-meta li-x mt-1">
+        
+          <li>Dec 10, 2013</li>
+        
+    
+        
+          <li class="middot"></li>
+          <li>One minute read</li>
+        
+      </ul>
+    </div>
+    
+
+    
+      clear clc srcDir=uigetdir(&#39;F:\Data\preshear and relaxation\2013-11-26-SSBR80-60oC- 1 s-1 preshear and hold.&#39;,&#39;请选择读取目录&#39;); %获得选择的文件夹 cd(srcDir); allnames=struct2cell(dir(&#39;*.tif&#39;)); %只处理8位的bmp文件 [k,len]=size(allnames); %获得bmp文件的个数 saveDir=uigetdir(&#39;F:\Data\preshear and relaxation\2013-11-26-SSBR80-60oC- 1 s-1 preshear and hold.&#39;,&#39;请选择保存目录&#39;); for ii=1:len %逐次取出文件 name=allnames{1,ii}; I=imread(name); %读取文件 fftI=fft2(I); sfftI=fftshift(fftI); RR=real(sfftI); II=imag(sfftI); A=sqrt(RR.^2&#43;II.^2); A=(A-min(min(A)))/(max(max(A))-min(min(A)))*225; h=figure; imshow(A); %% %by lds colorbar colormap(&#39;jet&#39;) [~,lname]=size(name); namefig=name(1:lname-3);saveas(gcf,[saveDir &#39;\&#39; namefig &#39;fig&#39;]) %保存fig的图像 print(1,&#39;-dpng&#39;,[saveDir &#39;\&#39; namefig &#39;png&#39;]); %保存png的图像 close(h) end......
+    
+  </a>
+
+  
+  
+  <div class="post-meta li-x mt-2 div-x">
+    <div>
+      
+        
+          <li><a href="https://wwww.liangdeshan.github.io/categories/%E6%9D%82%E7%89%A9"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 杂物 </a></li>
+        
+      
+      
+        
+          <li><a href="https://wwww.liangdeshan.github.io/series/%E6%9D%82%E7%89%A9"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>杂物</a></li>
+        
+      
+    </div>
+   
+    <div>
+      
+        
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://wwww.liangdeshan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
+    
+      <li><a href="https://wwww.liangdeshan.github.io/tags/matlab" role="button">matlab </a></li>
+      
+    
+      <li><a href="https://wwww.liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9" role="button">杂物 </a></li>
+      
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+</div>
+
+          
+            
+        </div>
+      </div>
+      
+
+    </div>
+  </main>
+
+    
+    
+
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+  
+  <div class="pb-2 mt-5 pt-5">
+    
+      <a href="//github.com/liangdeshan " target="_blank" rel="noopener"><i class="fab fa-github mr-3" aria-hidden="true"></i></a>    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+        <a href="mailto:ustb.liangdeshan@gmail.com"><i class="far fa-envelope-open mr-3" aria-hidden="true"></i></a>
+    
+
+    
+
+    
+
+  </div>
+  
+
+  
+  <div class="copyright py-4">
+    
+    <span>  2016 - 2019 &copy; | Theme <a href='https://github.com/orianna-zzo/AllinOne' target="_blank">AllinOne</a> by <a href='https://github.com/orianna-zzo' target="_blank">Orianna</a>  </span>
+  </div>
+  
+
+</footer>
+
+
+    
+
+
+
+
+
+
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/vendors/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/vendors/jquery/jquery.smooth-scroll.min.js"></script>
+
+
+
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/vendors/popper.min.js"></script>
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/vendors/holder.min.js"></script>
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/vendors-extensions/bootstrap4/bootstrap.js" ></script>
+
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/vendors/mdb/mdb.min.js"></script>
+
+<script type="text/javascript" src="https://wwww.liangdeshan.github.io/js/main.js"></script>
+
+
+
+  
+  <script src="https://wwww.liangdeshan.github.io/js/vendors/highlight.pack.js"> </script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+ 
+  <script src="https://wwww.liangdeshan.github.io/js/vendors/katex/katex.min.js"> </script>
+  <script src="https://wwww.liangdeshan.github.io/js/vendors/katex/contrib/auto-render.min.js"></script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          renderMathInElement(document.body);
+      });
+  </script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  
+  new WOW().init();
+</script>
+
+
+
+
+  </body>
+</html>
