@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 梁德山博客</title>
-    <link>wwww.liangdeshan.github.io/liangdeshan/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Wed, 08 May 2019 08:13:21 +0800</lastBuildDate>
     
-	<atom:link href="wwww.liangdeshan.github.io/liangdeshan/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>杂物</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/categories/%E6%9D%82%E7%89%A9/</link>
+      <link>/categories/%E6%9D%82%E7%89%A9/</link>
       <pubDate>Wed, 08 May 2019 08:13:21 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/categories/%E6%9D%82%E7%89%A9/</guid>
+      <guid>/categories/%E6%9D%82%E7%89%A9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matlab</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/categories/matlab/</link>
+      <link>/categories/matlab/</link>
       <pubDate>Mon, 19 May 2014 10:23:48 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/categories/matlab/</guid>
+      <guid>/categories/matlab/</guid>
       <description></description>
     </item>
     

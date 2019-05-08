@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>插值 on 梁德山博客</title>
-    <link>wwww.liangdeshan.github.io/liangdeshan/tags/%E6%8F%92%E5%80%BC/</link>
+    <link>/tags/%E6%8F%92%E5%80%BC/</link>
     <description>Recent content in 插值 on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Tue, 19 Nov 2013 23:03:12 +0800</lastBuildDate>
     
-	<atom:link href="wwww.liangdeshan.github.io/liangdeshan/tags/%E6%8F%92%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/%E6%8F%92%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>matlab不规则散点插值</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/blog/2013-11/matlab%E4%B8%8D%E8%A7%84%E5%88%99%E6%95%A3%E7%82%B9%E6%8F%92%E5%80%BC/</link>
+      <link>/blog/2013-11/matlab%E4%B8%8D%E8%A7%84%E5%88%99%E6%95%A3%E7%82%B9%E6%8F%92%E5%80%BC/</link>
       <pubDate>Tue, 19 Nov 2013 23:03:12 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/blog/2013-11/matlab%E4%B8%8D%E8%A7%84%E5%88%99%E6%95%A3%E7%82%B9%E6%8F%92%E5%80%BC/</guid>
+      <guid>/blog/2013-11/matlab%E4%B8%8D%E8%A7%84%E5%88%99%E6%95%A3%E7%82%B9%E6%8F%92%E5%80%BC/</guid>
       <description>clear clc % 读入你的xyz 假设你的xy坐标范围在-100到100之间 F_z=TriScatteredInterp(x,y,z); ti=-100:100; %xy的数据范围 [qx,qy]=meshgrid(ti,ti); qz=F_z(qx,qy); surf(qx,qy,qz); http://xiaozu.renren.com/xiaozu/106512/358088928 http://xiaozu.renren.com/xiaozu/106512/358090198</description>
     </item>
     

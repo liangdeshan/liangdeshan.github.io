@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on 梁德山博客</title>
-    <link>wwww.liangdeshan.github.io/liangdeshan/series/</link>
+    <link>/series/</link>
     <description>Recent content in Series on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Wed, 08 May 2019 08:13:21 +0800</lastBuildDate>
     
-	<atom:link href="wwww.liangdeshan.github.io/liangdeshan/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>git</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/series/git/</link>
+      <link>/series/git/</link>
       <pubDate>Wed, 08 May 2019 08:13:21 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/series/git/</guid>
+      <guid>/series/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>matlab</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/series/matlab/</link>
+      <link>/series/matlab/</link>
       <pubDate>Mon, 19 May 2014 10:23:48 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/series/matlab/</guid>
+      <guid>/series/matlab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>杂物</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/series/%E6%9D%82%E7%89%A9/</link>
+      <link>/series/%E6%9D%82%E7%89%A9/</link>
       <pubDate>Tue, 10 Dec 2013 15:49:22 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/series/%E6%9D%82%E7%89%A9/</guid>
+      <guid>/series/%E6%9D%82%E7%89%A9/</guid>
       <description></description>
     </item>
     

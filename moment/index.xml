@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moment Code on 梁德山博客</title>
-    <link>wwww.liangdeshan.github.io/liangdeshan/moment/</link>
+    <link>/moment/</link>
     <description>Recent content in Moment Code on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 19 Aug 2010 20:29:37 -0700</lastBuildDate>
     
-	<atom:link href="wwww.liangdeshan.github.io/liangdeshan/moment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/moment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Moment Test</title>
-      <link>wwww.liangdeshan.github.io/liangdeshan/moment/test/</link>
+      <link>/moment/test/</link>
       <pubDate>Thu, 19 Aug 2010 20:29:37 -0700</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/liangdeshan/moment/test/</guid>
+      <guid>/moment/test/</guid>
       <description>test Movie test test</description>
     </item>
     
