@@ -135,10 +135,10 @@ LaTeX和Markdown冲突可以通过转义来解决&lt;/p&gt;
 
 &lt;h2 id=&#34;figure&#34;&gt;figure&lt;/h2&gt;
 
-&lt;div class=&#34;flex-center w-100&#34; style=&#34;text-align: center;&#34;&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/matlab/20110719.png&#34; width=&#39;300px&#39;/&gt;&lt;/div&gt;
+&lt;div class=&#34;flex-center w-100&#34; style=&#34;text-align: center;&#34;&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/blogs/20110719.png&#34; width=&#39;300px&#39;/&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/matlab/20110719.png&#34; width=&#39;300px&#39;/&gt;
-&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/matlab/20110719.png&#34; width=&#39;300px&#39;  align=&#34;right&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/blogs/20110719.png&#34; width=&#39;300px&#39;/&gt;
+&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/blogs/20110719.png&#34; width=&#39;300px&#39;  align=&#34;right&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;⌘ - command&lt;/p&gt;
 
