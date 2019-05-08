@@ -71,12 +71,6 @@
   </url>
   
   <url>
-    <loc>https://liangdeshan.github.io/categories/matlab/</loc>
-    <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://liangdeshan.github.io/series/matlab/</loc>
     <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -84,6 +78,12 @@
   
   <url>
     <loc>https://liangdeshan.github.io/tags/matlab/</loc>
+    <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liangdeshan.github.io/categories/matlab/</loc>
     <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
