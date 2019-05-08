@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>push on 梁德山博客</title>
-    <link>/tags/push/</link>
+    <link>https://liangdeshan.github.io/tags/push/</link>
     <description>Recent content in push on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Wed, 08 May 2019 08:13:21 +0800</lastBuildDate>
     
-	<atom:link href="/tags/push/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://liangdeshan.github.io/tags/push/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>git三连</title>
-      <link>/blog/2019-05/git%E4%B8%89%E8%BF%9E/</link>
+      <link>https://liangdeshan.github.io/blog/2019-05/git%E4%B8%89%E8%BF%9E/</link>
       <pubDate>Wed, 08 May 2019 08:13:21 +0800</pubDate>
       
-      <guid>/blog/2019-05/git%E4%B8%89%E8%BF%9E/</guid>
+      <guid>https://liangdeshan.github.io/blog/2019-05/git%E4%B8%89%E8%BF%9E/</guid>
       <description>$ git add . $ git commit -m &amp;quot;修改信息&amp;quot; $ git push origin master</description>
     </item>
     
