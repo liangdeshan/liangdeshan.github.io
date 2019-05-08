@@ -7,23 +7,24 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="梁德山 (One Limit)">
-  <meta name="description" content="[凝聚态物理,液晶模拟计算,数据可视化,相场方法 Python科学计算,Python可视化 MATLAB科学计算,MATLAB数据可视化 PHP,HTML,css,Wordpress,Web开发,建站 CentOS,Ubuntu,Linux,MacOS,Windows 实验室老中医专治各种疑难杂症,维修打印机,双系统安装,虚拟机]">
+  <meta name="description" content="等高线的绘制 各位虫友，我现在做出一个曲面图，比如： x=[1 2 3; 4 5 6; 7 8 9]; y=[2 4 6;3 5 7;1 4 6]; z=[12 14 16;23 25 27;31 34 36]; surf(x,y,z) 下面怎样作出不同值的等高线呢？ 直接用contour没有出来啊。 谢谢！ x=[1 2 3; 4 5 6; 7 8 9]; y=[2 4 6;3 5 7;1 4 6]; z=[12 14 16;23 25 27;31 34 36]; contour(x,y,z,5) %5条等值线 平面的，如果要立体的用 contour3 非常感谢你的回答，但是我看得等高线都是环形的，椭圆形的，那个怎么出来的 如果你能给出 完整的 数据就可以出来，你给的数据太简单~~~ 非常感谢你的回答，另外我">
   
-  <meta property="og:title" content="作图" />
-<meta property="og:description" content="[凝聚态物理,液晶模拟计算,数据可视化,相场方法 Python科学计算,Python可视化 MATLAB科学计算,MATLAB数据可视化 PHP,HTML,css,Wordpress,Web开发,建站 CentOS,Ubuntu,Linux,MacOS,Windows 实验室老中医专治各种疑难杂症,维修打印机,双系统安装,虚拟机]" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://liangdeshan.github.io/tags/%E4%BD%9C%E5%9B%BE/" />
+  <meta property="og:title" content="matlab contour和contour3应用 等高线及其标注（第一次被奖励那么多金币~~~" />
+<meta property="og:description" content="等高线的绘制 各位虫友，我现在做出一个曲面图，比如： x=[1 2 3; 4 5 6; 7 8 9]; y=[2 4 6;3 5 7;1 4 6]; z=[12 14 16;23 25 27;31 34 36]; surf(x,y,z) 下面怎样作出不同值的等高线呢？ 直接用contour没有出来啊。 谢谢！ x=[1 2 3; 4 5 6; 7 8 9]; y=[2 4 6;3 5 7;1 4 6]; z=[12 14 16;23 25 27;31 34 36]; contour(x,y,z,5) %5条等值线 平面的，如果要立体的用 contour3 非常感谢你的回答，但是我看得等高线都是环形的，椭圆形的，那个怎么出来的 如果你能给出 完整的 数据就可以出来，你给的数据太简单~~~ 非常感谢你的回答，另外我" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://liangdeshan.github.io/blog/2011-07/matlab-contour%E5%92%8Ccontour3%E5%BA%94%E7%94%A8-%E7%AD%89%E9%AB%98%E7%BA%BF%E5%8F%8A%E5%85%B6%E6%A0%87%E6%B3%A8%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A2%AB%E5%A5%96%E5%8A%B1%E9%82%A3%E4%B9%88%E5%A4%9A%E9%87%91%E5%B8%81~~~/" />
+<meta property="article:published_time" content="2011-07-19T16:46:17&#43;08:00"/>
+<meta property="article:modified_time" content="2011-07-19T16:46:17&#43;08:00"/><meta property="og:see_also" content="https://liangdeshan.github.io/blog/2014-05/matlab%E8%B0%83%E7%94%A8c/c-%E5%87%BD%E6%95%B0%E7%9A%84%E6%96%B9%E6%B3%95/" /><meta property="og:see_also" content="https://liangdeshan.github.io/blog/2013-11/matlab%E5%9C%A8%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E8%AF%95%E9%AA%8C%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E6%B1%87%E6%80%BB-%E5%8C%97%E4%BA%AC%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6/" /><meta property="og:see_also" content="https://liangdeshan.github.io/blog/2011-07/matlab-%E9%9A%8F%E6%9C%BA%E7%94%9F%E6%88%90%E6%95%B0%E6%8D%AE%E7%9A%84%E9%97%AE%E9%A2%98/" /><meta property="og:see_also" content="https://liangdeshan.github.io/blog/2011-07/matlab-%E4%B8%80%E7%BB%84%E5%9B%BE%E7%89%87%E5%88%B6%E4%BD%9C%E5%8A%A8%E7%94%BB-avi/" /><meta property="og:see_also" content="https://liangdeshan.github.io/blog/2011-07/matlab-%E9%9A%90%E5%87%BD%E6%95%B0%E6%8B%9F%E5%90%88/" /><meta property="og:see_also" content="https://liangdeshan.github.io/blog/2011-07/matlab-axis-xlim-ylim-zlim-daspect-box/" />
 
-<meta property="og:updated_time" content="2011-07-19T20:21:13&#43;08:00"/>
 
 
   <title>
   
-       作图 | 梁德山博客 
+       matlab contour和contour3应用 等高线及其标注（第一次被奖励那么多金币~~~ | 梁德山博客 
   
   </title>
 
-  <link rel="canonical" href="https://liangdeshan.github.io/tags/%E4%BD%9C%E5%9B%BE/">
+  <link rel="canonical" href="https://liangdeshan.github.io/blog/2011-07/matlab-contour%E5%92%8Ccontour3%E5%BA%94%E7%94%A8-%E7%AD%89%E9%AB%98%E7%BA%BF%E5%8F%8A%E5%85%B6%E6%A0%87%E6%B3%A8%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A2%AB%E5%A5%96%E5%8A%B1%E9%82%A3%E4%B9%88%E5%A4%9A%E9%87%91%E5%B8%81~~~/">
 
   
   
@@ -260,214 +261,173 @@
     
 
     
-<main class="post-main-wrapper px-5">
   
-  <div class="row">
+  <main class="post-main-wrapper">
     
-    <div class="col-md-3">
-      
-      
-      
-
-  
-
-  
-
-  
-
-
-
-
-
-  <hr>
-  
-    <div class="post-meta">
-      <div class="mb-2">
-        <a href="https://liangdeshan.github.io/categories/">
-          <span class="font-weight-bold text-uppercase post-meta">
-            <i class="fas fa-folder-open pr-1" aria-hidden="true"></i> 
-            Categories
-          </span>
-        </a>
-      </div>
-
-      <div class="li-x post-meta" style="margin-left: -8px;">
-        
-          
-          
-            
-            <li class="py-1">
-              <a href="https://liangdeshan.github.io/categories/matlab">
-                <span>Matlab (9)</span>
-              </a>
-            </li>           
-          
-            
-              <li class="middot"></li>
-            
-            <li class="py-1">
-              <a href="https://liangdeshan.github.io/categories/%E6%9D%82%E7%89%A9">
-                <span>杂物 (6)</span>
-              </a>
-            </li>           
-          
-        
-      </div>
-    </div>
-
     
-  
-
-
-      
-      
-
-  
-
-  
-
-  
-
-
-
-
-
-  <hr>
-  
-    <div class="post-meta">
-      <div class="mb-2">
-        <a href="https://liangdeshan.github.io/tags/">
-          <span class="font-weight-bold text-uppercase post-meta">
-            <i class="fas fa-tags pr-1" aria-hidden="true"></i> 
-            Featured Tags
-          </span>
-        </a>
-      </div>
-
-      <div class="li-x post-meta tags-md" style="margin-left: -8px;">
-        
-        
-        
-            <li><a href="https://liangdeshan.github.io/tags/matlab" role="button"><span>matlab (11)</span></a></li>
-          
-        
-            <li><a href="https://liangdeshan.github.io/tags/%E4%BD%9C%E5%9B%BE" role="button"><span>作图 (3)</span></a></li>
-          
-        
-      </div>
-    </div>
-
-    
-  
-
+    <div class="row">
 
       
-  
 
-  
+      
+      <div class="col-md-10">
+      
 
-  
-
-
-
-
-
-
-
-  <hr>
-  
-    <div class="post-meta">
-      <div class="mb-2">
-        <a href="https://liangdeshan.github.io/series/">
-          <span class="font-weight-bold text-uppercase post-meta">
-            <i class="fas fa-bookmark pr-1" aria-hidden="true"></i> 
-            Recommend Series
-          </span>
-        </a>
-      </div>
-     
-      <div class="post-meta" >
         
-          
-          
-            <li class="py-1"><a href="https://liangdeshan.github.io/series/matlab"><span>Matlab (9)</span></a></li>
-          
-        
-      </div>
+        <div class="z-depth-1  post-wrapper white-bg single-post">
+
+          <div class="post-header text-center" >
+  <ul class="post-meta li-x">
     
       
-    </div>
-  
+        <li><a href="https://liangdeshan.github.io/categories/matlab"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> matlab </a></li>
+      
+    
+    
+      
+        <li><a href="https://liangdeshan.github.io/series/matlab"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>matlab</a></li>
+      
+    
+  </ul>
 
-  
+  <div class="px-4 post-heading">matlab contour和contour3应用 等高线及其标注（第一次被奖励那么多金币~~~</div>
 
-    </div>
+  <ul class="post-meta li-x mt-1">
+    
+      <li>Jul 19, 2011</li>
     
 
     
+      <li class="middot"></li>
+      <li>One minute read</li>
     
-    <div class="col-md-9 mt-3">
-      <ul>
-        <div class="div-x">
-            <div class='post-heading'>
+  </ul>
   
-      作图
-  
+
 </div>
 
-            
-            
-              <div class="px-2 middot"></div>
-              <div>
-                3 posts
-              </div>
-            
+
+          <div class="post-content markdown">
+            <p>等高线的绘制</p>
+
+<p>各位虫友，我现在做出一个曲面图，比如：</p>
+
+<pre><code>x=[1 2 3; 4 5 6; 7 8 9];
+y=[2 4 6;3 5 7;1 4 6];
+z=[12 14 16;23 25 27;31 34 36];
+surf(x,y,z)
+</code></pre>
+
+<p>下面怎样作出不同值的等高线呢？
+直接用contour没有出来啊。
+谢谢！</p>
+
+<pre><code>x=[1 2 3; 4 5 6; 7 8 9];
+y=[2 4 6;3 5 7;1 4 6];
+z=[12 14 16;23 25 27;31 34 36];
+contour(x,y,z,5)   %5条等值线
+</code></pre>
+
+<p>平面的，如果要立体的用 contour3</p>
+
+<p>非常感谢你的回答，但是我看得等高线都是环形的，椭圆形的，那个怎么出来的</p>
+
+<p>如果你能给出 完整的 数据就可以出来，你给的数据太简单~~~</p>
+
+<p>非常感谢你的回答，另外我想标出等值线的数值，还有做确定数值的等高线怎么表示呢？谢谢你的回答</p>
+
+<pre><code>[X,Y] = meshgrid([-2:.25:2]);
+Z = X.*exp(-X.^2-Y.^2);
+r=[-0.3 0.3 0.4];
+contour3(X,Y,Z,r)
+surface(X,Y,Z,'EdgeColor',[.8 .8 .8],'FaceColor','none')
+grid off
+view(-15,25)
+colormap cool
+</code></pre>
+
+<p>注意r的数值，也就是我想要的等值线，至于标记数字，你可以在图形编辑窗口完成~~~</p>
+
+<p>简单说就是用r的数值 控制等值线~~~</p>
+
+<p>等高线 标注</p>
+
+<pre><code>[x,y] = meshgrid(-2:.2:2); 
+z = x.*y.*exp(-x.^2-y.^2); 
+[C,h] = contour(x,y,z); 
+clabel(C,h);
+</code></pre>
+
           </div>
-      
+
           
-      </ul>
-      <ul>
-        
+          <div class="row">
+            <div class="col-md-8">
             
-        
-        
-            
-                <li class="post-item no-bullet">
-                    <span class="date">2011.7</span>
-                </li>
+              <div class="mb-5">
                 
-                    <li class="post-item">
+<div class="li-x div-x post-meta">
+  <li class="pr-0"><a href="https://liangdeshan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
+  <div class="tags-sm">
     
-    <span class="meta"><time datetime='2011-07-19T20:21:13&#43;08:00'>Jul 19, 2011</time></span>
-    
-    <a href="https://liangdeshan.github.io/blog/2011-07/matlab-%E4%B8%80%E7%BB%84%E5%9B%BE%E7%89%87%E5%88%B6%E4%BD%9C%E5%8A%A8%E7%94%BB-avi/"><span>MATLAB— 一组图片制作动画 avi</span></a>
-</li>
-
-                
-                    <li class="post-item">
-    
-    <span class="meta"><time datetime='2011-07-19T16:46:17&#43;08:00'>Jul 19, 2011</time></span>
-    
-    <a href="https://liangdeshan.github.io/blog/2011-07/matlab-axis-xlim-ylim-zlim-daspect-box/"><span>matlab axis xlim ylim zlim daspect box</span></a>
-</li>
-
-                
-                    <li class="post-item">
-    
-    <span class="meta"><time datetime='2011-07-19T15:04:48&#43;08:00'>Jul 19, 2011</time></span>
-    
-    <a href="https://liangdeshan.github.io/blog/2011-07/matlab%E4%BD%9C%E5%9B%BE%E8%AE%BE%E7%BD%AE%E5%9B%BE%E4%B8%AD%E6%A0%87%E9%A2%98%E5%9D%90%E6%A0%87%E7%9A%84%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7/"><span>Matlab作图设置图中标题坐标的字体、字号</span></a>
-</li>
-
-                
-            
-        
-      </ul>
-    </div>
-    
+      <li><a href="https://liangdeshan.github.io/tags/matlab" role="button">matlab </a></li>
+      
     
   </div>
-</main> 
+</div>
+              </div>
+            
+            </div>
+            
+          </div>
+          
+
+          
+          <div class="row pt-3">
+            <div class="col-md-6">
+              
+                <a href=https://liangdeshan.github.io/blog/2011-07/matlab%E4%B8%8D%E9%87%8D%E5%A4%8D%E9%9A%8F%E6%9C%BA%E6%95%B4%E6%95%B0%E7%9A%84%E5%BA%94%E7%94%A8%E4%BE%8B%E5%AD%90/ class="post-meta">Previous
+                  <div class="pt-2 pb-5 d-flex">
+                    <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
+                    <span>Matlab——不重复随机整数的应用例子</span>
+                  </div>
+                </a>
+              
+            </div>
+            
+            <div class="col-md-6 text-right" >
+              
+                <a href=https://liangdeshan.github.io/blog/2011-07/matlab-axis-xlim-ylim-zlim-daspect-box/ class="post-meta">Next
+                  <div class="pt-2 pb-5 flex-reverse">
+                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
+                    <span>matlab axis xlim ylim zlim daspect box</span>
+                  </div>
+                </a>
+              
+            </div>
+          </div>
+
+          
+
+        </div>
+        
+
+      </div>
+      
+
+      
+	
+	
+	
+	
+
+    </div>
+    
+
+
+  </main>
+  
+
 
     
     

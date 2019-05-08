@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>隐函数 on 梁德山博客</title>
+    <link>https://liangdeshan.github.io/tags/%E9%9A%90%E5%87%BD%E6%95%B0/</link>
+    <description>Recent content in 隐函数 on 梁德山博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 19 Jul 2011 16:46:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://liangdeshan.github.io/tags/%E9%9A%90%E5%87%BD%E6%95%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MATLAB-隐函数拟合</title>
+      <link>https://liangdeshan.github.io/blog/2011-07/matlab-%E9%9A%90%E5%87%BD%E6%95%B0%E6%8B%9F%E5%90%88/</link>
+      <pubDate>Tue, 19 Jul 2011 16:46:17 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/blog/2011-07/matlab-%E9%9A%90%E5%87%BD%E6%95%B0%E6%8B%9F%E5%90%88/</guid>
+      <description>有一组数据： P：0 0.001 0.002 0.003 0.004 0.005 0.006 0.008 0.011 0.014 0.019 0.023 0.03 0.037 0.048 0.06 0.08 0.1 0.136 0.17 0.217 0.279 0.388 0.444 c: 0 0.307598804 0.538975997 0.777628765 0.959350561 1.069744162 1.190592446 1.340828541 1.512368753 1.643259589 1.769609554 1.903576465 2.027165658 2.151392907 2.294367083 2.425558327 2.598588163 2.723808495 2.912380082 3.049909679 3.206076964 3.386393547 3.644346885 3.758352826 想用方程 $$P=(C-P / H)^{*}\left(10^{\wedge}(A(C-P / H)+B)\right)$$ P=（c-P/H）*(10^(A(c-P/H)+B))进行拟合，求出参数H，A和B。由于这是个隐函数，用origin拟合不了，据说可以用matlab用最小二乘法进行非线性拟合，可是我不会。哪位大牛能帮忙把程序写一下？我想看看这个方程对实验数据的拟合效果好不好，要是效果</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>c&#43;&#43;</title>
+      <link>https://liangdeshan.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 19 May 2014 10:23:48 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>matlab</title>
       <link>https://liangdeshan.github.io/tags/matlab/</link>
       <pubDate>Mon, 19 May 2014 10:23:48 +0800</pubDate>
@@ -39,11 +48,29 @@
     </item>
     
     <item>
+      <title>批处理</title>
+      <link>https://liangdeshan.github.io/tags/%E6%89%B9%E5%A4%84%E7%90%86/</link>
+      <pubDate>Tue, 10 Dec 2013 15:49:22 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/tags/%E6%89%B9%E5%A4%84%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>杂物</title>
       <link>https://liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9/</link>
       <pubDate>Tue, 10 Dec 2013 15:49:22 +0800</pubDate>
       
       <guid>https://liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>大物实验</title>
+      <link>https://liangdeshan.github.io/tags/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/</link>
+      <pubDate>Tue, 26 Nov 2013 00:14:19 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/tags/%E5%A4%A7%E7%89%A9%E5%AE%9E%E9%AA%8C/</guid>
       <description></description>
     </item>
     
@@ -75,11 +102,38 @@
     </item>
     
     <item>
+      <title>拟合</title>
+      <link>https://liangdeshan.github.io/tags/%E6%8B%9F%E5%90%88/</link>
+      <pubDate>Tue, 19 Jul 2011 16:46:17 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/tags/%E6%8B%9F%E5%90%88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>隐函数</title>
+      <link>https://liangdeshan.github.io/tags/%E9%9A%90%E5%87%BD%E6%95%B0/</link>
+      <pubDate>Tue, 19 Jul 2011 16:46:17 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/tags/%E9%9A%90%E5%87%BD%E6%95%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>test</title>
       <link>https://liangdeshan.github.io/tags/test/</link>
       <pubDate>Thu, 19 Aug 2010 20:29:37 -0700</pubDate>
       
       <guid>https://liangdeshan.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://liangdeshan.github.io/tags/latex/</link>
+      <pubDate>Thu, 07 Jan 2010 08:13:21 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/tags/latex/</guid>
       <description></description>
     </item>
     

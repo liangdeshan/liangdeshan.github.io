@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>matlab axis xlim ylim zlim daspect box</title>
+      <link>https://liangdeshan.github.io/blog/2011-07/matlab-axis-xlim-ylim-zlim-daspect-box/</link>
+      <pubDate>Tue, 19 Jul 2011 16:46:17 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/blog/2011-07/matlab-axis-xlim-ylim-zlim-daspect-box/</guid>
+      <description>box %% axis([xmin xmax ymin ymax]) axis([xmin xmax ymin ymax zmin zmaxcmin cmax]) v = axis axis auto axis manual axis tight axis fill axis ij axis xy axis equal axis image axis square axis vis3d axis normal axis off axis on axis(axes_handles,...) [mode,visibility,direction] = axis(&#39;state&#39;) %% daspect daspect([aspect_ratio]) daspect(&#39;mode&#39;) daspect(&#39;auto&#39;) daspect(&#39;manual&#39;) daspect(axes_handle,...) daspect([1 1 1])</description>
+    </item>
+    
+    <item>
       <title>Matlab作图设置图中标题坐标的字体、字号</title>
       <link>https://liangdeshan.github.io/blog/2011-07/matlab%E4%BD%9C%E5%9B%BE%E8%AE%BE%E7%BD%AE%E5%9B%BE%E4%B8%AD%E6%A0%87%E9%A2%98%E5%9D%90%E6%A0%87%E7%9A%84%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7/</link>
       <pubDate>Tue, 19 Jul 2011 15:04:48 +0800</pubDate>

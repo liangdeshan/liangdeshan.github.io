@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on 梁德山博客</title>
+    <link>https://liangdeshan.github.io/tags/latex/</link>
+    <description>Recent content in LaTeX on 梁德山博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Thu, 07 Jan 2010 08:13:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://liangdeshan.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Test Post</title>
+      <link>https://liangdeshan.github.io/blog/2010-01/first-test-post/</link>
+      <pubDate>Thu, 07 Jan 2010 08:13:21 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/blog/2010-01/first-test-post/</guid>
+      <description>&lt;h2 id=&#34;hello&#34;&gt;hello&lt;/h2&gt;
+
+&lt;p&gt;$$f=\frac{a}{2}\left(Q{x}^{2}+Q{y}^{2}\right)$$
+$$f=\frac{a}{2}\left(Q_{x}^{2}+ Q_{y}^{2}\right)$$
+LaTeX和Markdown冲突可以通过转义来解决&lt;/p&gt;
+
+&lt;p&gt;hello this is testing!&lt;/p&gt;
+
+&lt;h2 id=&#34;figure&#34;&gt;figure&lt;/h2&gt;
+
+&lt;div class=&#34;flex-center w-100&#34; style=&#34;text-align: center;&#34;&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/blogs/20110719.png&#34; width=&#39;300px&#39;/&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/blogs/20110719.png&#34; width=&#39;300px&#39;/&gt;
+&lt;img name=&#34;touchbar-config&#34; src=&#34;https://liangdeshan.github.io/images/blogs/20110719.png&#34; width=&#39;300px&#39;  align=&#34;right&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;⌘ - command&lt;/p&gt;
+
+&lt;p&gt;⌥ - option&lt;/p&gt;
+
+&lt;p&gt;⌃ - control&lt;/p&gt;
+
+&lt;p&gt;⇧ - shift&lt;/p&gt;
+
+&lt;p&gt;␣ - space&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 一级
+## 二级
+### 三级
+#### 四级
+##### 五级
+###### 六级
+####### 七级
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;效果如下&lt;/p&gt;
+
+&lt;h1 id=&#34;一级&#34;&gt;一级&lt;/h1&gt;
+
+&lt;h2 id=&#34;二级&#34;&gt;二级&lt;/h2&gt;
+
+&lt;h3 id=&#34;三级&#34;&gt;三级&lt;/h3&gt;
+
+&lt;h4 id=&#34;四级&#34;&gt;四级&lt;/h4&gt;
+
+&lt;h5 id=&#34;五级&#34;&gt;五级&lt;/h5&gt;
+
+&lt;h6 id=&#34;六级&#34;&gt;六级&lt;/h6&gt;
+
+&lt;p&gt;####### 七级&lt;/p&gt;
+
+&lt;p&gt;以上表示markdown最多支持六级标题&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

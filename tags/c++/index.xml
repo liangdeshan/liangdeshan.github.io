@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c&#43;&#43; on 梁德山博客</title>
+    <link>https://liangdeshan.github.io/tags/c&#43;&#43;/</link>
+    <description>Recent content in c&#43;&#43; on 梁德山博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Mon, 19 May 2014 10:23:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://liangdeshan.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MATLAB调用C/C&#43;&#43;函数的方法</title>
+      <link>https://liangdeshan.github.io/blog/2014-05/matlab%E8%B0%83%E7%94%A8c/c-%E5%87%BD%E6%95%B0%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 19 May 2014 10:23:48 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/blog/2014-05/matlab%E8%B0%83%E7%94%A8c/c-%E5%87%BD%E6%95%B0%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>通过MATLAB将C/C++函数编译成MEX函数，在MATLAB中就可以调用了。 1，首先装编译器 Matlab里键入mex -setup，选择你要编译C++的编译器 2，写C++函数 函数的形式必须是 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) nlhs：输出参数个数 plhs：输出参数列表 nrhs：输入参数个数 prhs：输入参数列表 ，不过函数名可以随便取的。注意：保存的文件名就是将来在MATLAB中调用的函数名，而不是这里的函数名</description>
+    </item>
+    
+  </channel>
+</rss>
