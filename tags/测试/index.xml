@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>测试 on 梁德山博客</title>
-    <link>wwww.liangdeshan.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
+    <link>wwww.liangdeshan.github.io/liangdeshan/tags/%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 测试 on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
     <lastBuildDate>Thu, 07 Jan 2010 08:13:21 +0800</lastBuildDate>
     
-	<atom:link href="wwww.liangdeshan.github.io/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="wwww.liangdeshan.github.io/liangdeshan/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Test Post</title>
-      <link>wwww.liangdeshan.github.io/blog/2010-01/first-test-post/</link>
+      <link>wwww.liangdeshan.github.io/liangdeshan/blog/2010-01/first-test-post/</link>
       <pubDate>Thu, 07 Jan 2010 08:13:21 +0800</pubDate>
       
-      <guid>wwww.liangdeshan.github.io/blog/2010-01/first-test-post/</guid>
+      <guid>wwww.liangdeshan.github.io/liangdeshan/blog/2010-01/first-test-post/</guid>
       <description>&lt;h2 id=&#34;hello&#34;&gt;hello&lt;/h2&gt;
 
 &lt;p&gt;$$f=\frac{a}{2}\left(Q{x}^{2}+Q{y}^{2}\right)$$
@@ -27,10 +27,10 @@ LaTeX和Markdown冲突可以通过转义来解决&lt;/p&gt;
 
 &lt;h2 id=&#34;figure&#34;&gt;figure&lt;/h2&gt;
 
-&lt;div class=&#34;flex-center w-100&#34; style=&#34;text-align: center;&#34;&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;wwww.liangdeshan.github.io/images/matlab/20110719.png&#34; width=&#39;300px&#39;/&gt;&lt;/div&gt;
+&lt;div class=&#34;flex-center w-100&#34; style=&#34;text-align: center;&#34;&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;wwww.liangdeshan.github.io/liangdeshan/images/matlab/20110719.png&#34; width=&#39;300px&#39;/&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;wwww.liangdeshan.github.io/images/matlab/20110719.png&#34; width=&#39;300px&#39;/&gt;
-&lt;img name=&#34;touchbar-config&#34; src=&#34;wwww.liangdeshan.github.io/images/matlab/20110719.png&#34; width=&#39;300px&#39;  align=&#34;right&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img name=&#34;touchbar-config&#34; src=&#34;wwww.liangdeshan.github.io/liangdeshan/images/matlab/20110719.png&#34; width=&#39;300px&#39;/&gt;
+&lt;img name=&#34;touchbar-config&#34; src=&#34;wwww.liangdeshan.github.io/liangdeshan/images/matlab/20110719.png&#34; width=&#39;300px&#39;  align=&#34;right&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;⌘ - command&lt;/p&gt;
 
