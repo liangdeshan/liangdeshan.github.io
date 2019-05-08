@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac小白探索记 on 梁德山博客</title>
+    <link>https://wwww.liangdeshan.github.io/series/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B0/</link>
+    <description>Recent content in Mac小白探索记 on 梁德山博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Tue, 30 Jan 2018 20:21:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://wwww.liangdeshan.github.io/series/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac小白探索记(2) Finder设置</title>
+      <link>https://wwww.liangdeshan.github.io/blog/2018-01/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B02-finder%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 30 Jan 2018 20:21:13 +0800</pubDate>
+      
+      <guid>https://wwww.liangdeshan.github.io/blog/2018-01/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B02-finder%E8%AE%BE%E7%BD%AE/</guid>
+      <description>Finder是mac的资源管理器，它的使用和配置与Windows区别还是挺多。习惯了Windows的使用使得Finder使用总觉得有些不便。配置好Finder能很大幅度提高我们的工作效率。 我会从遇到的问题着手，查找可以解决问题提高效率的解决方案。 Finder显示设置 显示隐藏文件夹 Mac系统Finder中的 /usr、/etc等文件夹都是隐藏文件，如果不进行设置用户是无法见到的。估计是因为mac用户并</description>
+    </item>
+    
+    <item>
+      <title>Matlab作图设置图中标题坐标的字体、字号</title>
+      <link>https://wwww.liangdeshan.github.io/blog/2011-07/matlab%E4%BD%9C%E5%9B%BE%E8%AE%BE%E7%BD%AE%E5%9B%BE%E4%B8%AD%E6%A0%87%E9%A2%98%E5%9D%90%E6%A0%87%E7%9A%84%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7/</link>
+      <pubDate>Tue, 19 Jul 2011 15:04:48 +0800</pubDate>
+      
+      <guid>https://wwww.liangdeshan.github.io/blog/2011-07/matlab%E4%BD%9C%E5%9B%BE%E8%AE%BE%E7%BD%AE%E5%9B%BE%E4%B8%AD%E6%A0%87%E9%A2%98%E5%9D%90%E6%A0%87%E7%9A%84%E5%AD%97%E4%BD%93%E5%AD%97%E5%8F%B7/</guid>
+      <description>x=-pi:pi/100:pi; y=sin(x); plot(x,y); title(‘正弦函数图形’,’FontName’,’微软雅黑’ ,’FontSize’,20) set(gca,’FontSize’,20); $$f=\frac{a}{2}\left(Q_{x}^{2}+ Q_{y}^{2}\right)$$ ⌘ - command ⌥ - option ⌃ - control ⇧ - shift ␣ - space</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软件安装 on 梁德山博客</title>
+    <link>https://wwww.liangdeshan.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/</link>
+    <description>Recent content in 软件安装 on 梁德山博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zn-Hans</language>
+    <lastBuildDate>Mon, 07 May 2018 15:04:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://wwww.liangdeshan.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac小白探索记(1) 基本设置与常用软件</title>
+      <link>https://wwww.liangdeshan.github.io/blog/2018-05/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B01-%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Mon, 07 May 2018 15:04:48 +0800</pubDate>
+      
+      <guid>https://wwww.liangdeshan.github.io/blog/2018-05/mac%E5%B0%8F%E7%99%BD%E6%8E%A2%E7%B4%A2%E8%AE%B01-%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE%E4%B8%8E%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
+      <description>$$f=\frac{a}{2}\left(Q{x}^{2}+Q{y}^{2}\right)$$ ⌘ - command ⌥ - option ⌃ - control ⇧ - shift ␣ - space 可以将一些找起来比较麻烦但常用的设置放在touchbar，移除默认设置touchbar中一些不常用的功能。我放了night shift、免打扰和屏幕保护程序。应用程序中的touchbar的功能和该应用程序本身功能有关，有些可以在程序中设置touchbar的功能。 此外有很多人推荐的BetterTouchTool也可以，不过这款软件收费。 第三方软件安装 有些软件并没有在ap</description>
+    </item>
+    
+  </channel>
+</rss>
