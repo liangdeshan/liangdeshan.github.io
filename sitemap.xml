@@ -9,6 +9,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/categories/others/</loc>
+    <lastmod>2019-05-14T13:04:06+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/series/others/</loc>
     <lastmod>2019-05-14T13:04:06+08:00</lastmod>
     <priority>0</priority>
@@ -16,12 +22,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/tags/others/</loc>
-    <lastmod>2019-05-14T13:04:06+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/categories/others/</loc>
     <lastmod>2019-05-14T13:04:06+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -50,6 +50,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/categories/git/</loc>
+    <lastmod>2019-05-08T08:13:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/series/git/</loc>
     <lastmod>2019-05-08T08:13:21+08:00</lastmod>
     <priority>0</priority>
@@ -57,12 +63,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/tags/git/</loc>
-    <lastmod>2019-05-08T08:13:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/categories/git/</loc>
     <lastmod>2019-05-08T08:13:21+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -84,6 +84,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/categories/mac/</loc>
+    <lastmod>2018-10-16T10:17:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/series/mac/</loc>
     <lastmod>2018-10-16T10:17:35+08:00</lastmod>
     <priority>0</priority>
@@ -91,12 +97,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/tags/mac/</loc>
-    <lastmod>2018-10-16T10:17:35+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/categories/mac/</loc>
     <lastmod>2018-10-16T10:17:35+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -123,6 +123,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/categories/matlab/</loc>
+    <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/series/matlab/</loc>
     <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -130,12 +136,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/tags/matlab/</loc>
-    <lastmod>2018-08-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/categories/matlab/</loc>
     <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
