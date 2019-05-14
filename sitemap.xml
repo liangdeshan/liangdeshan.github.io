@@ -21,6 +21,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/tags/git/</loc>
+    <lastmod>2019-05-08T08:13:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/categories/git/</loc>
     <lastmod>2019-05-08T08:13:21+08:00</lastmod>
     <priority>0</priority>
@@ -28,12 +34,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/series/git/</loc>
-    <lastmod>2019-05-08T08:13:21+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/tags/git/</loc>
     <lastmod>2019-05-08T08:13:21+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -61,6 +61,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/tags/mac/</loc>
+    <lastmod>2018-10-16T10:17:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/categories/mac/</loc>
     <lastmod>2018-10-16T10:17:35+08:00</lastmod>
     <priority>0</priority>
@@ -68,12 +74,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/series/mac/</loc>
-    <lastmod>2018-10-16T10:17:35+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/tags/mac/</loc>
     <lastmod>2018-10-16T10:17:35+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -100,6 +100,12 @@
   </url>
   
   <url>
+    <loc>https://liangdeshan.github.io/tags/matlab/</loc>
+    <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liangdeshan.github.io/categories/matlab/</loc>
     <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -112,8 +118,20 @@
   </url>
   
   <url>
-    <loc>https://liangdeshan.github.io/tags/matlab/</loc>
-    <lastmod>2018-08-07T00:00:00+00:00</lastmod>
+    <loc>https://liangdeshan.github.io/tags/others/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liangdeshan.github.io/categories/others/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://liangdeshan.github.io/series/others/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,24 +142,6 @@
   
   <url>
     <loc>https://liangdeshan.github.io/tags/%E6%89%B9%E5%A4%84%E7%90%86/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/categories/%E6%9D%82%E7%89%A9/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/series/%E6%9D%82%E7%89%A9/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://liangdeshan.github.io/tags/%E6%9D%82%E7%89%A9/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

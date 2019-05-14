@@ -177,6 +177,8 @@ LaTeX和Markdown冲突可以通过转义来解决&lt;/p&gt;
 ####### 七级
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;效果如下&lt;/p&gt;
 
 &lt;h1 id=&#34;一级&#34;&gt;一级&lt;/h1&gt;
