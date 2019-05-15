@@ -7,24 +7,25 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1" />
   <meta name="author" content="梁德山 (One Limit)">
-  <meta name="description" content="查看磁盘用量 df 查看当前目录，每个子目录占用磁盘空间 du du -h 指定深度为1 du -h --max-depth=1 不同服务器之间传文件 scp lds@22X.XX.XX.XXX:/home/lds/XXXXXX ~/Desktop/ 查看pdf文件 evince $.pdf 后台执行matlab的.m文件 -nohup matlab &lt;XXXX.m &amp; 版本控制 Version Action Time 1.0 Push 2019-05-14T13:04:06&#43;08:00">
+  <meta name="description" content="TeamViewer 14版本以后 越来越难破解。 除了破解之外还有什么办法使用个人版TeamViewer? 下面以我的亲身经历编写。 最近经常被检测为商业用途，然后弹出5分钟断开的提示。 提示为5分钟，有时候1分钟就断开了，如此短暂的时间很难远程把问题处理完。 这就是频繁断开的弹窗 第一步打开 TeamViewer 官网 由于我用mac版本，升级到了最新版，破解基本是没可能 于是我打开了 TeamViewer 官网 如下 https://www.teamviewer.com/en/support/personal-use-verification/ 打开后看到如下图内容： 第二步填写提交表单 上图红色1处，填">
   
-  <meta property="og:title" content="linux scp df du指定深度 查看pdf matalb后台执行任务" />
-<meta property="og:description" content="查看磁盘用量 df 查看当前目录，每个子目录占用磁盘空间 du du -h 指定深度为1 du -h --max-depth=1 不同服务器之间传文件 scp lds@22X.XX.XX.XXX:/home/lds/XXXXXX ~/Desktop/ 查看pdf文件 evince $.pdf 后台执行matlab的.m文件 -nohup matlab &lt;XXXX.m &amp; 版本控制 Version Action Time 1.0 Push 2019-05-14T13:04:06&#43;08:00" />
+  <meta property="og:title" content="TeamViewer 被检测为商业用途的解决办法" />
+<meta property="og:description" content="TeamViewer 14版本以后 越来越难破解。 除了破解之外还有什么办法使用个人版TeamViewer? 下面以我的亲身经历编写。 最近经常被检测为商业用途，然后弹出5分钟断开的提示。 提示为5分钟，有时候1分钟就断开了，如此短暂的时间很难远程把问题处理完。 这就是频繁断开的弹窗 第一步打开 TeamViewer 官网 由于我用mac版本，升级到了最新版，破解基本是没可能 于是我打开了 TeamViewer 官网 如下 https://www.teamviewer.com/en/support/personal-use-verification/ 打开后看到如下图内容： 第二步填写提交表单 上图红色1处，填" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://liangdeshan.github.io/blog/2019-05/linux-scp-df-du%E6%8C%87%E5%AE%9A%E6%B7%B1%E5%BA%A6-%E6%9F%A5%E7%9C%8Bpdf-matalb%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1/" />
-<meta property="article:published_time" content="2019-05-14T13:04:06&#43;08:00"/>
-<meta property="article:modified_time" content="2019-05-14T13:04:06&#43;08:00"/>
+<meta property="og:url" content="https://liangdeshan.github.io/blog/2019-05/teamviewer-%E8%A2%AB%E6%A3%80%E6%B5%8B%E4%B8%BA%E5%95%86%E4%B8%9A%E7%94%A8%E9%80%94%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/" />
+<meta property="article:published_time" content="2019-05-15T08:13:21&#43;08:00"/>
+<meta property="article:modified_time" content="2019-05-15T08:13:21&#43;08:00"/>
+<meta property="og:see_also" content="https://liangdeshan.github.io/blog/2018-10/%E9%80%9A%E8%BF%87%E7%BB%88%E7%AB%AF%E5%91%BD%E4%BB%A4%E6%94%B9%E5%8F%98launchpad%E8%A1%8C%E6%95%B0%E5%88%97%E6%95%B0/" />
 
 
 
   <title>
   
-       linux scp df du指定深度 查看pdf matalb后台执行任务 | 梁德山博客 
+       TeamViewer 被检测为商业用途的解决办法 | 梁德山博客 
   
   </title>
 
-  <link rel="canonical" href="https://liangdeshan.github.io/blog/2019-05/linux-scp-df-du%E6%8C%87%E5%AE%9A%E6%B7%B1%E5%BA%A6-%E6%9F%A5%E7%9C%8Bpdf-matalb%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1/">
+  <link rel="canonical" href="https://liangdeshan.github.io/blog/2019-05/teamviewer-%E8%A2%AB%E6%A3%80%E6%B5%8B%E4%B8%BA%E5%95%86%E4%B8%9A%E7%94%A8%E9%80%94%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
 
   
   
@@ -284,24 +285,28 @@
       
         <li><a href="https://liangdeshan.github.io/categories/others"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> Others </a></li>
       
+        <li><a href="https://liangdeshan.github.io/categories/mac"><i class="fas fa-folder-open pr-1" aria-hidden="true"></i> mac </a></li>
+      
     
     
       
         <li><a href="https://liangdeshan.github.io/series/others"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>Others</a></li>
       
+        <li><a href="https://liangdeshan.github.io/series/mac"><i class="fas fa-bookmark pr-1" aria-hidden="true"></i>mac</a></li>
+      
     
   </ul>
 
-  <div class="px-4 post-heading">linux scp df du指定深度 查看pdf matalb后台执行任务</div>
+  <div class="px-4 post-heading">TeamViewer 被检测为商业用途的解决办法</div>
 
   <ul class="post-meta li-x mt-1">
     
-      <li>May 14, 2019</li>
+      <li>May 15, 2019</li>
     
 
     
       <li class="middot"></li>
-      <li>One minute read</li>
+      <li>2 minutes read</li>
     
   </ul>
   
@@ -312,38 +317,60 @@
           <div class="post-content markdown">
             
 
-<p>查看磁盘用量</p>
+<p>TeamViewer 14版本以后 越来越难破解。
+除了破解之外还有什么办法使用个人版TeamViewer?
+下面以我的亲身经历编写。</p>
 
-<pre><code>df
-</code></pre>
+<h3 id="最近经常被检测为商业用途-然后弹出5分钟断开的提示">最近经常被检测为商业用途，然后弹出5分钟断开的提示。</h3>
 
-<p>查看当前目录，每个子目录占用磁盘空间</p>
+<p>提示为5分钟，有时候1分钟就断开了，如此短暂的时间很难远程把问题处理完。
+这就是频繁断开的弹窗</p>
 
-<pre><code>du
-du -h
-</code></pre>
+<div class="flex-center w-100" style="text-align: center;"><img name="touchbar-config" src="https://liangdeshan.github.io/images/blogs/teamviewerpersonal/teamviewer00.png" width='300px'/></div>
 
-<p>指定深度为1</p>
+<h3 id="第一步打开-teamviewer-官网">第一步打开 TeamViewer 官网</h3>
 
-<pre><code>du -h --max-depth=1
-</code></pre>
+<p>由于我用mac版本，升级到了最新版，破解基本是没可能
+于是我打开了 TeamViewer 官网
+如下
+<a href="https://www.teamviewer.com/en/support/personal-use-verification/">https://www.teamviewer.com/en/support/personal-use-verification/</a></p>
 
-<p>不同服务器之间传文件</p>
+<p>打开后看到如下图内容：</p>
 
-<pre><code>scp lds@22X.XX.XX.XXX:/home/lds/XXXXXX ~/Desktop/
-</code></pre>
+<div class="flex-center w-100" style="text-align: center;"><img name="touchbar-config" src="https://liangdeshan.github.io/images/blogs/teamviewerpersonal/teamviewer01.jpg" width='500px'/></div>
 
-<p>查看pdf文件</p>
+<h3 id="第二步填写提交表单">第二步填写提交表单</h3>
 
-<pre><code>evince $.pdf
-</code></pre>
+<ul>
+<li>上图红色1处，填写设备号(也就是下图中您的ID):</li>
+</ul>
 
-<p>后台执行matlab的.m文件</p>
+<div class="flex-center w-100" style="text-align: center;"><img name="touchbar-config" src="https://liangdeshan.github.io/images/blogs/teamviewerpersonal/teamviewer04.jpg" width='260px'/></div>
 
-<pre><code>-nohup matlab &lt;XXXX.m &amp;
-</code></pre>
+<ul>
+<li>红色2处 填写您的 email 地址 下一行选择国家</li>
+<li>红色3处是重点，用英文描述您用 TeamViewe r做什么事儿。我就如实写，我用 TeamViewer 跟清华 北理工 物理课题组的同学解决一些 coding 的问题，还用 TeamViewer 来给 西安交通大学（物理）、四川大学（地质）、 南京大学 (化学) (大部分来自于小木虫的网友)，讨论解决一些问题。当然这一切都是免费的。    (一定要强调免费哦)</li>
 
-<h2 id="版本控制">版本控制</h2>
+<li><p>红色4处 上传您本地的TeamViewer软件的使用日志，由于系统和版本的不同日志的存放路径文件夹不同，下图是打开日志文件夹路径的简单方法。打开 TeamViewer &mdash;&gt; 其他 &mdash;&gt; 打开日志文件
+<img name="touchbar-config" src="https://liangdeshan.github.io/images/blogs/teamviewerpersonal/teamviewer02.jpg" width='260px'/>
+<img name="touchbar-config" src="https://liangdeshan.github.io/images/blogs/teamviewerpersonal/teamviewer03.jpg" width='300px'  align="right"/></p></li>
+
+<li><p>红色5处 勾选同意</p></li>
+
+<li><p>Submit 提交</p>
+
+<h3 id="成功">成功</h3>
+
+<p>几个工作日后就可以收到来自 TeamViewer 的邮件如下：</p></li>
+</ul>
+
+<div class="flex-center w-100" style="text-align: center;"><img name="touchbar-config" src="https://liangdeshan.github.io/images/blogs/teamviewerpersonal/teamviewer09.jpg" width='500px'/></div>
+
+<p>接下来的日子又可以使用 TeamViewer 个人版了。</p>
+
+<h3 id="写在最后">写在最后</h3>
+
+<p>如果是工作需要，或者真正的商业用途，还是推荐购买商业授权。</p>
 
 <table>
 <thead>
@@ -358,7 +385,7 @@ du -h
 <tr>
 <td>1.0</td>
 <td>Push</td>
-<td>2019-05-14T13:04:06+08:00</td>
+<td>2019-05-15</td>
 </tr>
 </tbody>
 </table>
@@ -375,7 +402,10 @@ du -h
   <li class="pr-0"><a href="https://liangdeshan.github.io/tags/"><i class="fas fa-tags"></i></a></li>
   <div class="tags-sm">
     
-      <li><a href="https://liangdeshan.github.io/tags/others" role="button">Others </a></li>
+      <li><a href="https://liangdeshan.github.io/tags/teamviewer" role="button">TeamViewer </a></li>
+      
+    
+      <li><a href="https://liangdeshan.github.io/tags/mac" role="button">mac </a></li>
       
     
   </div>
@@ -391,23 +421,16 @@ du -h
           <div class="row pt-3">
             <div class="col-md-6">
               
-                <a href=https://liangdeshan.github.io/blog/2019-05/git%E4%B8%89%E8%BF%9E/ class="post-meta">Previous
+                <a href=https://liangdeshan.github.io/blog/2019-05/linux-scp-df-du%E6%8C%87%E5%AE%9A%E6%B7%B1%E5%BA%A6-%E6%9F%A5%E7%9C%8Bpdf-matalb%E5%90%8E%E5%8F%B0%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1/ class="post-meta">Previous
                   <div class="pt-2 pb-5 d-flex">
                     <i class="fas fa-angle-left text-grey font-weight-bold mr-2 active-color"></i>
-                    <span>git三连</span>
+                    <span>linux scp df du指定深度 查看pdf matalb后台执行任务</span>
                   </div>
                 </a>
               
             </div>
             
             <div class="col-md-6 text-right" >
-              
-                <a href=https://liangdeshan.github.io/blog/2019-05/teamviewer-%E8%A2%AB%E6%A3%80%E6%B5%8B%E4%B8%BA%E5%95%86%E4%B8%9A%E7%94%A8%E9%80%94%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/ class="post-meta">Next
-                  <div class="pt-2 pb-5 flex-reverse">
-                    <i class="fas fa-angle-right text-grey font-weight-bold ml-2 active-color"></i>
-                    <span>TeamViewer 被检测为商业用途的解决办法</span>
-                  </div>
-                </a>
               
             </div>
           </div>
@@ -450,15 +473,123 @@ du -h
 								
 									<ul class="nav">
 								
+									<ul class="nav">
+								
 								
 
 										<li class="nav-item">
-						 					<a class="nav-link" href="#%e7%89%88%e6%9c%ac%e6%8e%a7%e5%88%b6">
-												 版本控制
+						 					<a class="nav-link" href="#%e6%9c%80%e8%bf%91%e7%bb%8f%e5%b8%b8%e8%a2%ab%e6%a3%80%e6%b5%8b%e4%b8%ba%e5%95%86%e4%b8%9a%e7%94%a8%e9%80%94-%e7%84%b6%e5%90%8e%e5%bc%b9%e5%87%ba5%e5%88%86%e9%92%9f%e6%96%ad%e5%bc%80%e7%9a%84%e6%8f%90%e7%a4%ba">
+												 最近经常被检测为商业用途，然后弹出5分钟断开的提示。
 											</a>
 										</li>
 						 
 								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e6%89%93%e5%bc%80-teamviewer-%e5%ae%98%e7%bd%91">
+												 第一步打开 TeamViewer 官网
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%a1%ab%e5%86%99%e6%8f%90%e4%ba%a4%e8%a1%a8%e5%8d%95">
+												 第二步填写提交表单
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e6%88%90%e5%8a%9f">
+												 成功
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
+								
+									</ul>
+								
+							
+						
+				 
+						
+						
+							
+								
+								
+									<ul class="nav">
+								
+									<ul class="nav">
+								
+								
+
+										<li class="nav-item">
+						 					<a class="nav-link" href="#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e">
+												 写在最后
+											</a>
+										</li>
+						 
+								
+								
+									</ul>
 								
 									</ul>
 								

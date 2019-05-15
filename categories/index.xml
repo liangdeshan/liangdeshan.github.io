@@ -6,7 +6,7 @@
     <description>Recent content in Categories on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 14 May 2019 13:04:06 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2019 08:13:21 +0800</lastBuildDate>
     
 	<atom:link href="https://liangdeshan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Others</title>
       <link>https://liangdeshan.github.io/categories/others/</link>
-      <pubDate>Tue, 14 May 2019 13:04:06 +0800</pubDate>
+      <pubDate>Wed, 15 May 2019 08:13:21 +0800</pubDate>
       
       <guid>https://liangdeshan.github.io/categories/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://liangdeshan.github.io/categories/mac/</link>
+      <pubDate>Wed, 15 May 2019 08:13:21 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/categories/mac/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Wed, 08 May 2019 08:13:21 +0800</pubDate>
       
       <guid>https://liangdeshan.github.io/categories/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mac</title>
-      <link>https://liangdeshan.github.io/categories/mac/</link>
-      <pubDate>Tue, 16 Oct 2018 10:17:35 +0800</pubDate>
-      
-      <guid>https://liangdeshan.github.io/categories/mac/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in mac on 梁德山博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zn-Hans</language>
-    <lastBuildDate>Tue, 16 Oct 2018 10:17:35 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2019 08:13:21 +0800</lastBuildDate>
     
 	<atom:link href="https://liangdeshan.github.io/series/mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TeamViewer 被检测为商业用途的解决办法</title>
+      <link>https://liangdeshan.github.io/blog/2019-05/teamviewer-%E8%A2%AB%E6%A3%80%E6%B5%8B%E4%B8%BA%E5%95%86%E4%B8%9A%E7%94%A8%E9%80%94%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+      <pubDate>Wed, 15 May 2019 08:13:21 +0800</pubDate>
+      
+      <guid>https://liangdeshan.github.io/blog/2019-05/teamviewer-%E8%A2%AB%E6%A3%80%E6%B5%8B%E4%B8%BA%E5%95%86%E4%B8%9A%E7%94%A8%E9%80%94%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+      <description>TeamViewer 14版本以后 越来越难破解。 除了破解之外还有什么办法使用个人版TeamViewer? 下面以我的亲身经历编写。 最近经常被检测为商业用途，然后弹出5分钟断开的提示。 提示为5分钟，有时候1分钟就断开了，如此短暂的时间很难远程把问题处理完。 这就是频繁断开的弹窗 第一步打开 TeamViewer 官网 由于我用mac版本，升级到了最新版，破解基本是没可能 于是我打开了 TeamViewer 官网 如下 https://www.teamviewer.com/en/support/personal-use-verification/ 打开后看到如下图内容： 第二步填写提交表单 上图红色1处，填</description>
+    </item>
     
     <item>
       <title>通过终端命令改变Launchpad行数列数</title>
